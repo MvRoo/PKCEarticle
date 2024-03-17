@@ -1,0 +1,13 @@
+﻿@page
+@model PkcePublicModel
+@{
+    ViewData["Title"] = "Public client";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Public client</h1>
+    <p>AccessToken: @Model.AccessToken</p>
+    <p>IdToken: @Model.IdToken</p>
+    <p>RefreshToken: @Model.RefreshToken</p>
+    <p>Error: @Model.Error</p>
+</div>

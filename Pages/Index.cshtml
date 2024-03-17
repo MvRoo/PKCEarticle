@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <p>Click <a href="https://login.microsoftonline.com/00000000-0000-0000-0000-000000000000/oauth2/v2.0/authorize?client_id=00000000-0000-0000-0000-000000000000&response_type=code&redirect_uri=http://localhost:5218/pkceconfidential&response_mode=query&scope=openid&code_challenge=~ThisIsThe1stArticleI_veWrittenForXmsMagazine.IHopeYouFindItInformative-&code_challenge_method=plain">here</a> to request a token as a confidential client.</p>
+    <p>Click <a href="https://login.microsoftonline.com/00000000-0000-0000-0000-000000000000/oauth2/v2.0/authorize?client_id=00000000-0000-0000-0000-000000000000&response_type=code&redirect_uri=http://localhost:5218/pkcepublic&response_mode=query&scope=openid&code_challenge=~ThisIsThe1stArticleI_veWrittenForXmsMagazine.IHopeYouFindItInformative-&code_challenge_method=plain">here</a> to request a token as a public client.</p>
+    <p>Click <a href="https://login.microsoftonline.com/00000000-0000-0000-0000-000000000000/oauth2/v2.0/authorize?client_id=00000000-0000-0000-0000-000000000000&response_type=code&redirect_uri=http://localhost:5218/pkcepublics256&response_mode=query&scope=openid&state=@Model.State&code_challenge=@Model.CodeChallenge&code_challenge_method=S256">here</a> to request a token as a public client with code_challenge_method=S256.</p>
+</div>

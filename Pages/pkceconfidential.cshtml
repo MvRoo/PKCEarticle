@@ -1,0 +1,13 @@
+﻿@page
+@model PkceConfidentialModel
+@{
+    ViewData["Title"] = "Confidential client";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Confidential client</h1>
+    <p>AccessToken: @Model.AccessToken</p>
+    <p>IdToken: @Model.IdToken</p>
+    <p>RefreshToken: @Model.RefreshToken</p>
+    <p>Error: @Model.Error</p>
+</div>

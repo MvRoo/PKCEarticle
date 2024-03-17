@@ -1,0 +1,141 @@
+{
+  "id": "a28cb3d1-f7df-44ee-aeb7-1acb4edcf3c4",
+  "acceptMappedClaims": null,
+  "accessTokenAcceptedVersion": null,
+  "addIns": [],
+  "allowPublicClient": null,
+  "appId": "00000000-0000-0000-0000-000000000000",
+  "appRoles": [],
+  "oauth2AllowUrlPathMatching": false,
+  "createdDateTime": "2023-10-17T15:43:05Z",
+  "description": null,
+  "certification": null,
+  "disabledByMicrosoftStatus": null,
+  "groupMembershipClaims": "ApplicationGroup",
+  "identifierUris": [],
+  "informationalUrls": {
+    "termsOfService": null,
+    "support": null,
+    "privacy": null,
+    "marketing": null
+  },
+  "keyCredentials": [],
+  "knownClientApplications": [],
+  "logoUrl": null,
+  "logoutUrl": null,
+  "name": "pkce-michael",
+  "notes": null,
+  "oauth2AllowIdTokenImplicitFlow": false,
+  "oauth2AllowImplicitFlow": false,
+  "oauth2Permissions": [],
+  "oauth2RequirePostResponse": false,
+  "optionalClaims": {
+    "idToken": [
+      {
+        "name": "email",
+        "source": null,
+        "essential": false,
+        "additionalProperties": []
+      },
+      {
+        "name": "groups",
+        "source": null,
+        "essential": false,
+        "additionalProperties": [
+          "sam_account_name"
+        ]
+      }
+    ],
+    "accessToken": [
+      {
+        "name": "groups",
+        "source": null,
+        "essential": false,
+        "additionalProperties": [
+          "emit_as_roles"
+        ]
+      }
+    ],
+    "saml2Token": [
+      {
+        "name": "groups",
+        "source": null,
+        "essential": false,
+        "additionalProperties": []
+      }
+    ]
+  },
+  "orgRestrictions": [],
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [
+    {
+      "customKeyIdentifier": null,
+      "endDate": "2024-09-09T22:56:43.392Z",
+      "keyId": "2cdca640-656b-4dd1-b184-7f13832c562c",
+      "startDate": "2024-03-13T23:56:43.392Z",
+      "value": null,
+      "createdOn": "2024-03-13T23:56:51.323291Z",
+      "hint": "sB5",
+      "displayName": "PKCE"
+    },
+    {
+      "customKeyIdentifier": null,
+      "endDate": "2024-06-11T20:59:21.963Z",
+      "keyId": "f331f4b5-88b9-4661-b63f-94a38f307483",
+      "startDate": "2024-03-13T21:59:21.963Z",
+      "value": null,
+      "createdOn": "2024-03-13T21:59:35.1321425Z",
+      "hint": "q5E",
+      "displayName": "PKCe_article"
+    },
+    {
+      "customKeyIdentifier": null,
+      "endDate": "2024-04-17T11:38:04.817Z",
+      "keyId": "159dad6b-7a34-4a31-a0c0-106926a2b6c7",
+      "startDate": "2023-10-20T11:38:04.817Z",
+      "value": null,
+      "createdOn": "2023-10-20T11:38:10.50779Z",
+      "hint": "iYf",
+      "displayName": "Password uploaded on Fri Oct 20 2023"
+    }
+  ],
+  "preAuthorizedApplications": [],
+  "publisherDomain": "xebia.com",
+  "replyUrlsWithType": [
+    {
+      "url": "http://localhost:5218/pkcespa",
+      "type": "Spa"
+    },
+    {
+      "url": "http://localhost:5218/pkcepublic",
+      "type": "InstalledClient"
+    },
+    {
+      "url": "http://localhost:5218/pkceconfidential",
+      "type": "Web"
+    }
+  ],
+  "requiredResourceAccess": [
+    {
+      "resourceAppId": "00000003-0000-0000-c000-000000000000",
+      "resourceAccess": [
+        {
+          "id": "64a6cdd6-aab1-4aaf-94b8-3cc8405e90d0",
+          "type": "Scope"
+        },
+        {
+          "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+          "type": "Scope"
+        }
+      ]
+    }
+  ],
+  "samlMetadataUrl": null,
+  "signInUrl": null,
+  "signInAudience": "AzureADMyOrg",
+  "tags": [],
+  "tokenEncryptionKeyId": null
+}

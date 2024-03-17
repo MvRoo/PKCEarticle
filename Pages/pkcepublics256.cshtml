@@ -1,0 +1,13 @@
+﻿@page
+@model PkcePublicS256Model
+@{
+    ViewData["Title"] = "Public client with code_challenge_method S256";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Public client with code_challenge_method S256</h1>
+    <p>AccessToken: @Model.AccessToken</p>
+    <p>IdToken: @Model.IdToken</p>
+    <p>RefreshToken: @Model.RefreshToken</p>
+    <p>Error: @Model.Error</p>
+</div>
